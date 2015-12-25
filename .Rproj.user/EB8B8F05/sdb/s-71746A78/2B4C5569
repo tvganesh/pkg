@@ -1,0 +1,17 @@
+{
+    "contents" : "##########################################################################################\n# Designed and developed by Tinniam V Ganesh\n# Date : 10 Jul 2015\n# Function: bowlerAvgWktsOpposition\n# This function plots the average runs scored by batsman at the ground. The xlabels indicate\n# the number of innings at ground\n#\n###########################################################################################\n\nbowlerAvgWktsOpposition <- function(file, name=\"A Chinaman\"){\n    \n    Opposition <- Wkts <- NULL\n    bowler <- cleanBowlerData(file)\n    \n    # Use dplyr's summarise to group by opposition and compute mean and count\n    meanWkts <- bowler %>% group_by(Opposition) %>% summarise(m= mean(Wkts))\n    countInnings <- bowler %>% group_by(Opposition) %>% summarise(len=length(Wkts))\n    \n    # Set margins\n    par(mar=c(9,4,3,2))\n    opposition <- as.vector(meanWkts$Opposition)\n    values <- paste(opposition,\"-\",countInnings$len)\n    atitle <- paste(name,\"'s Average Wickets versus Opposition\")\n    barplot(meanWkts$m,names=values,las=2,ylab=\"Average Wickets\", \n            col=rainbow(length(meanWkts$m)),main=atitle)\n    abline(h=3,lty=3,lwd=2)\n    \n    mtext(\"Opposition - No of innings\", side=1, line=7.5, adj=1.0, cex=1.0, col=\"black\")\n    mtext(\"Data source-Courtesy:ESPN Cricinfo\", side=3, line=0, adj=1.0, cex=0.8, col=\"blue\")\n}\n",
+    "created" : 1451058605726.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "710539173",
+    "id" : "2B4C5569",
+    "lastKnownWriteTime" : 1451058623,
+    "path" : "C:/software/cricket-package/git/cricketr/cricketr/R/bowlerAvgWktsOpposition.R",
+    "project_path" : "R/bowlerAvgWktsOpposition.R",
+    "properties" : {
+    },
+    "relative_order" : 8,
+    "source_on_save" : false,
+    "type" : "r_source"
+}

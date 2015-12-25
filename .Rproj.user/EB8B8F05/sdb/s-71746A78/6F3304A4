@@ -1,0 +1,17 @@
+{
+    "contents" : "##########################################################################################\n# Designed and developed by Tinniam V Ganesh\n# Date : 29 Jun 2015\n# Function: batsmanPerfHomeAway\n# This plots the batsman's performance in home versus abroad\n#\n###########################################################################################\nbatsmanPerfHomeAway <- function(file,name=\"A Hitter\") {\n    \n    \n    ha <- NULL\n    playersp <- clean(file)\n    home <- filter(playersp,ha==1)\n    away <- filter(playersp,ha==2)\n    \n    \n    home$venue=\"Home\"\n    away$venue=\"Overseas\"\n    homeAway <- rbind(home,away)\n    atitle <- paste(name,\"- Runs-Home & overseas\")\n    \n    # Create boxplots\n    boxplot(Runs~venue,data=homeAway,col=c(\"blue\",\"green\"),xlab=\"Match venue\",\n            ylab=\"Runs scored\", main=atitle)\n    \n    \n    a <- dim(home)\n    b <- dim(away)\n    \n    \n    par(mar=c(9,7,2,2))\n    val1 <- paste(a[1],\"Home venue\")\n    val2 <- paste(b[1], \"Overseas\")\n    vals <- list(val1,val2)\n    legend(x=\"top\", legend=vals, lty=c(1,1),   \n           lwd=c(7,7),col=c(\"blue\",\"green\"),bty=\"n\")\n    \n    mtext(\"Data source-Courtesy:ESPN Cricinfo\", side=1, line=4, adj=1.0, cex=1, col=\"blue\")  \n    \n}\n",
+    "created" : 1451058130352.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1664374313",
+    "id" : "6F3304A4",
+    "lastKnownWriteTime" : 1451058147,
+    "path" : "C:/software/cricket-package/git/cricketr/cricketr/R/batsmanPerfHomeAway.R",
+    "project_path" : "R/batsmanPerfHomeAway.R",
+    "properties" : {
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "type" : "r_source"
+}
