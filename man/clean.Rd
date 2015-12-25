@@ -16,7 +16,8 @@ CSV file with the batsman data obtained with getPlayerData
 }
 }
 \details{
-
+More details can be found in my short video tutorial in Youtube
+https://www.youtube.com/watch?v=q9uMPFVsXsI
 }
 \value{
 Returns the cleaned batsman dataframe

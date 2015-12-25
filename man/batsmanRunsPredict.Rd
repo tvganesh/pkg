@@ -23,7 +23,8 @@ This is a data frame with 2 columns BF(Balls Faced) and Mins(Minutes)
 
 }
 \details{
-%%  ~~ If necessary, more details than the description above ~~
+More details can be found in my short video tutorial in Youtube
+https://www.youtube.com/watch?v=q9uMPFVsXsI
 }
 \value{
 Returns a data frame with the predicted runs for the Balls Faced and Minutes at crease

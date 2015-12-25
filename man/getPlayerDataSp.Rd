@@ -29,7 +29,8 @@ type of data required. This can be "batting" or "bowling"
 }
 }
 \details{
-%%  ~~ If necessary, more details than the description above ~~
+More details can be found in my short video tutorial in Youtube
+https://www.youtube.com/watch?v=q9uMPFVsXsI
 }
 \value{
 Returns the player's dataframe along with the homeAway and the result columns

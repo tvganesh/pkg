@@ -17,7 +17,8 @@ The <bowler>.csv file
 }
 }
 \details{
-%%  ~~ If necessary, more details than the description above ~~
+More details can be found in my short video tutorial in Youtube
+https://www.youtube.com/watch?v=q9uMPFVsXsI
 }
 \value{
 A cleaned bowler data frame with complete cases

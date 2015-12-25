@@ -31,7 +31,8 @@ This is a vector that can take values 1,2,3,5. 1 - won match 2- lost match 3-tie
 }
 }
 \details{
-%%  ~~ If necessary, more details than the description above ~~
+More details can be found in my short video tutorial in Youtube
+https://www.youtube.com/watch?v=q9uMPFVsXsI
 }
 \value{
 Returns the player's dataframe

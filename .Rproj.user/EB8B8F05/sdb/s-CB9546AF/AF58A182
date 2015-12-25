@@ -1,0 +1,17 @@
+{
+    "contents" : "\\name{WR}\n\\alias{WR}\n\\title{\nThis function caculates the wicket rate vs mean number of deliveries\n}\n\\description{\nThis function caculates the wicket rate vs mean number of deliveries\n}\n\\usage{\nWR(file)\n}\n%- maybe also 'usage' for other objects documented here.\n\\arguments{\n  \\item{file}{\nName of file\n}\n}\n\\details{\nMore details can be found in my short video tutorial in Youtube\nhttps://www.youtube.com/watch?v=q9uMPFVsXsI\n}\n\\value{\nNone\n}\n\\references{\nhttp://www.espncricinfo.com/ci/content/stats/index.html\\cr\nhttps://gigadom.wordpress.com/\n}\n\\author{\nTinniam V Ganesh\n}\n\\note{\nMaintainer: Tinniam V Ganesh <tvganesh.85@gmail.com>\n}\n%% ~Make other sections like Warning with \\section{Warning }{....} ~\n\n\\seealso{\n%% ~~objects to See Also as \\code{\\link{help}}, ~~~\n}\n\\examples{\n##---- Should be DIRECTLY executable !! ----\n##-- ==>  Define data, use random,\n##--\tor do  help(data=index)  for the standard data sets.\n\n## The function is currently defined as\nfunction (file) \n{\n    bowler <- clean(file)\n    wktRate <- NULL\n    w <- NULL\n    for (i in 0:max(as.numeric(as.character(bowler$Wkts)))) {\n        balls <- bowler[bowler$Wkts == i, ]$Overs * 6\n        if (length(balls != 0)) {\n            wktRate[i] <- lapply(list(balls), mean)\n            w[i] <- i\n        }\n    }\n    a <- sapply(wktRate, is.null)\n    wktRate[a] <- NaN\n    wktRate\n  }\n}\n% Add one or more standard keywords, see file 'KEYWORDS' in the\n% R documentation directory.\n\\keyword{ ~kwd1 }\n\\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line\n",
+    "created" : 1451062881433.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3964805932",
+    "id" : "AF58A182",
+    "lastKnownWriteTime" : 1451062896,
+    "path" : "C:/software/cricket-package/git/cricketr/cricketr/man/WR.Rd",
+    "project_path" : "man/WR.Rd",
+    "properties" : {
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "type" : "r_doc"
+}
