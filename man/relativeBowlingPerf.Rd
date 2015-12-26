@@ -45,9 +45,9 @@ Maintainer: Tinniam V Ganesh <tvganesh.85@gmail.com>
 }
 \examples{
 # Get the list of the <batsman>.csv files obtained with getPlayerData() for batsmen to be compared
-#  <- getPlayerData(30176,file="kumble.csv",type="bowling", homeOrAway=c(1,2),result=c(1,2,4))
+# kumble  <- getPlayerData(30176,file="kumble.csv",type="bowling", homeOrAway=c(1,2),result=c(1,2,4))
 
-frames <- list("<path>/kumble.csv","<path>/warne.csv", "<path>/murali.csv")
+frames <- list("../kumble.csv","../warne.csv", "../murali.csv")
 names <- c("kumble","warne","murali")
 relativeBowlingPerf(frames,names)
 }

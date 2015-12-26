@@ -55,15 +55,15 @@ Maintainer: Tinniam V Ganesh <tvganesh.85@gmail.com>
 BF <- 30
 Mins <- 20
 
-batsmanRunsPredict("<path>/tendulkar.csv","Sachin Tendulkar",newdataframe=data.frame(BF,Runs)
+batsmanRunsPredict("../tendulkar.csv","Sachin Tendulkar",newdataframe=data.frame(BF,Mins))
 
-or give a data frame
-BF <- seq(20,200, length=15)
-Mins <- seq(30,220,length=15)
+#or give a data frame
+#BF <- seq(20,200, length=15)
+#Mins <- seq(30,220,length=15)
 
-values <- batsmanRunsPredict("<path>/tendulkar.csv","Sachin Tendulkar",
-    newdataframe=data.frame(BF,Runs)
-print(values)
+#values <- batsmanRunsPredict("<path>/tendulkar.csv","Sachin Tendulkar",
+    #newdataframe=data.frame(BF,Runs)
+#print(values)
 }
 
 \keyword{ ~kwd1 }

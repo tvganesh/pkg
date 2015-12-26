@@ -55,15 +55,15 @@ Maintainer: Tinniam V Ganesh <tvganesh.85@gmail.com>
 }
 \examples{
 # Both home and away. Result = won,lost and drawn
-tendulkar <-getPlayerData(35320,dir="./mytest", file="tendulkar.csv",
+tendulkar <-getPlayerData(35320,dir="../", file="tendulkar.csv",
 type="batting", homeOrAway=c(1,2),result=c(1,2,4))
 
 # Only away. Get data only for won and lost innings
-tendulkar <-getPlayerData(35320,dir="./mytest", file="tendulkar.csv",
+tendulkar <-getPlayerData(35320,dir="../", file="tendulkar.csv",
 type="batting",homeOrAway=c(2),result=c(1,2))
 
 # Get bowling data and store in file for future
-kumble <- getPlayerData(30176,dir="./mytest",file="kumble.csv"
+kumble <- getPlayerData(30176,dir="../",file="kumble.csv",
 type="bowling",homeOrAway=c(1),result=c(1,2))
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the

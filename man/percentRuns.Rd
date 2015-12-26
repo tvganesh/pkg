@@ -32,15 +32,6 @@ Tinniam V Ganesh
 \note{
 Maintainer: Tinniam V Ganesh <tvganesh.85@gmail.com>
 }
-
-%% ~Make other sections like Warning with \section{Warning }{....} ~
-
-\seealso{
-%% ~~objects to See Also as \code{\link{help}}, ~~~
-}
-\examples{
-
-}
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
 \keyword{ ~kwd1 }

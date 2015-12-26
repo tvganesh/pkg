@@ -47,8 +47,8 @@ Maintainer: Tinniam V Ganesh <tvganesh.85@gmail.com>
 # Get the list of the <batsman>.csv files obtained with getPlayerData() for batsmen to be compared
 #  <- getPlayerData(30176,file="kumble.csv",type="bowling", homeOrAway=c(1,2),result=c(1,2,4))
 
-frames <- list("<path>/kumble.csv","<path>/warne.csv", "<path>/murali.csv")
-names <- c("kumble","warne","murali")
+frames <- list("../kumble.csv","../warne.csv", "../murali.csv")
+names <- c("Kumble","Warne","Murali")
 relativeBowlingER(frames,names)
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the

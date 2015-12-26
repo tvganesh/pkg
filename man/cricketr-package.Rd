@@ -27,14 +27,9 @@ Maintainer:
 Tinniam V Ganesh
 tvganesh.85@gmail.com
 }
-\references{
-
-}
 
 \keyword{ package }
 \seealso{
 https://www.youtube.com/edit?o=U&video_id=q9uMPFVsXsI
 }
-\examples{
 
-}

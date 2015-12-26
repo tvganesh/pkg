@@ -53,10 +53,10 @@ Maintainer: Tinniam V Ganesh <tvganesh.85@gmail.com>
 }
 \examples{
 # Only away. Get data only for won and lost innings
-tendulkar <-getPlayerData(35320,dir=".", file="tendulkarsp.csv",type="batting")
+tendulkar <-getPlayerData(35320,dir="../", file="tendulkarsp.csv",type="batting")
 
 # Get bowling data and store in file for future
-kumble <- getPlayerData(30176,dir=".",file="kumblesp.csv",type="bowling")
+kumble <- getPlayerData(30176,dir="../",file="kumblesp.csv",type="bowling")
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.

@@ -40,13 +40,15 @@ Tinniam V Ganesh <tvganesh.85@gmail.com>
 %% ~Make other sections like Warning with \section{Warning }{....} ~
 
 \seealso{
-%% ~~objects to See Also as \code{\link{help}}, ~~~
+\code{\link{batsmanDismissals}}, 
+\code{\link{batsmanMovingAverage}}, 
+\code{\link{batsmanPerfBoxHist}}
 }
 \examples{
 # Get the list of the <batsman>.csv files obtained with getPlayerData() for batsmen to be compared
 #  <- getPlayerData(35320,file="tendulkar.csv",type="batting", homeOrAway=c(1,2),result=c(1,2,4))
 
-batsmen <- list("<path>/tendulkar.csv","<path>/dravid.csv", "<path>/ganguly.csv")
+batsmen <- list("../tendulkar.csv","../dravid.csv", "../ganguly.csv")
 names <- list("Tendulkar","Dravid","Ganguly")
 relativeRunsFreqPerf(batsmen,names)
 }

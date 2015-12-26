@@ -32,12 +32,6 @@ https://gigadom.wordpress.com/
 \author{
 Tinniam V Ganesh
 }
-\note{
-%%  ~~further notes~~
-}
-
-%% ~Make other sections like Warning with \section{Warning }{....} ~
-
 \seealso{
 \code{\link{batsmanMovingAverage}}
 \code{\link{batsmanRunsPredict}}
@@ -46,8 +40,8 @@ Tinniam V Ganesh
 }
 \examples{
 # Get or use the <batsman>.csv obtained with getPlayerData()
-tendulkarSp <-getPlayerDataSp(35320,".","tendulkarsp.csv","batting")
-batsmanPerfHomeAway("tendulkarsp.csv","Sachin Tendulkar")
+#tendulkarSp <-getPlayerDataSp(35320,".","tendulkarsp.csv","batting")
+#batsmanPerfHomeAway("../tendulkarsp.csv","Sachin Tendulkar")
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.

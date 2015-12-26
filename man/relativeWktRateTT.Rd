@@ -48,9 +48,9 @@ Maintainer: Tinniam V Ganesh <tvganesh.85@gmail.com>
 # Get or use the <bowler>.csv obtained with getPlayerData()
 # a <- getPlayerDataTT(26421,dir=".",file="ashwin.csv",type="bowling", homeOrAway=c(1,2,3),                # result=c(1,2,3,5))
 
-frames <- list("./mendis.csv","./badree.csv","ashwin.csv","narine.csv")
-names <- c("Mendis","Badree","Ashwin","Narine")
-relativeWktrateTT(frames,names)
+frames <- list("../mendis.csv","../badree.csv","../narine.csv")
+names <- c("Mendis","Badree","Narine")
+relativeWktRateTT(frames,names)
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.

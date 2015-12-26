@@ -9,7 +9,7 @@ This function caculates the wicket rate vs mean number of deliveries
 \usage{
 WR(file)
 }
-%- maybe also 'usage' for other objects documented here.
+
 \arguments{
   \item{file}{
 Name of file
@@ -32,11 +32,7 @@ Tinniam V Ganesh
 \note{
 Maintainer: Tinniam V Ganesh <tvganesh.85@gmail.com>
 }
-%% ~Make other sections like Warning with \section{Warning }{....} ~
 
-\seealso{
-%% ~~objects to See Also as \code{\link{help}}, ~~~
-}
 \examples{
 ##---- Should be DIRECTLY executable !! ----
 ##-- ==>  Define data, use random,

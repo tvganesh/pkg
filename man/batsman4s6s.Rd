@@ -45,11 +45,8 @@ Maintainer: Tinniam V Ganesh <tvganesh.85@gmail.com>
 }
 \examples{
 # Get or use the <batsman>.csv obtained with getPlayerDataOD()
-#sehwag <-getPlayerData(35263,dir="./mytest", file="sehwag.csv",type="batting", homeOrAway=c(1,2),result=c(1,2,4))
-
-batsmen <- list("./sehwag.csv","./devilliers.csv", "./gayle.csv","./maxwell.csv")
-names <- list("Sehwag","Devilliers","Gayle","Maxwell")
-batsman4s6s(batsmen,names)
+#sehwag <-getPlayerData(35263,dir="./data", file="sehwag.csv",type="batting", homeOrAway=c(1,2),result=c(1,2,4))
+batsman4s("../tendulkar.csv","Sachin Tendulkar")
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.

@@ -53,7 +53,7 @@ Maintainer: Tinniam V Ganesh <tvganesh.85@gmail.com>
 # Get or use the <bowler>.csv obtained with getPlayerData()
 # a <- getPlayerData(30176,file="kumble.csv",type="batting", homeOrAway=c(1,2),result=c(1,2,4))
 
-checkBowlerInForm("<path>/kumble.csv","Anil Kumble")
+checkBowlerInForm("../kumble.csv","Anil Kumble")
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.

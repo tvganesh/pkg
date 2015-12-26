@@ -43,9 +43,9 @@ Maintainer: Tinniam V Ganesh <tvganesh.85@gmail.com>
 
 # Get bowling data and store in file for future
 # kumble <- getPlayerData(30176,dir="./mytest", file="kumble.csv",type="bowling", 
-homeOrAway=c(1),result=c(1,2))
+# homeOrAway=c(1),result=c(1,2))
 
-cleanBowlerData("kumble.csv")
+cleanBowlerData("../kumble.csv")
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.

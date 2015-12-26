@@ -47,7 +47,7 @@ Tinniam V Ganesh <tvganesh.85@gmail.com>
 # Get or use the <batsman>.csv obtained with getPlayerData()
 #  <- getPlayerData(30176,file="kumble.csv",type="bowling", homeOrAway=c(1,2),result=c(1,2,4))
 
-bowlerHistWickets("<path>/kumble.csv", "Anil Kumble")
+bowlerHistWickets("../kumble.csv", "Anil Kumble")
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
