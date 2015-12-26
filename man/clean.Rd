@@ -46,7 +46,7 @@ Maintainer: Tinniam V Ganesh <tvganesh.85@gmail.com>
 #  <- getPlayerData(35320,file="tendulkar.csv",type="batting", homeOrAway=c(1,2),result=c(1,2,4))
 
 # clean the dataframe
-srt <- clean("../tendulkar.csv")
+srt <- clean("../cricketr/data/tendulkar.csv")
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.

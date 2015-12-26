@@ -48,7 +48,7 @@ Maintainer: Tinniam V Ganesh <tvganesh.85@gmail.com>
 # Get or use the <batsman>.csv obtained with getPlayerData()
 #  <- getPlayerData(35320,file="tendulkar.csv",type="batting", homeOrAway=c(1,2),result=c(1,2,4))
 
-batsmanAvgRunsOpposition("../tendulkar.csv","Sachin Tendulkar")
+batsmanAvgRunsOpposition("../cricketr/data/tendulkar.csv","Sachin Tendulkar")
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.

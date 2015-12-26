@@ -48,7 +48,7 @@ Maintainer: Tinniam V Ganesh <tvganesh.85@gmail.com>
 #sehwag <-getPlayerData(35263,dir="./mytest", file="sehwag.csv",type="batting", homeOrAway=c(1,2),result=c(1,2,4))
 
 
-batsmanScoringRateODTT("../sehwag.csv","Sehwag")
+batsmanScoringRateODTT("../cricketr/data/sehwag.csv","Sehwag")
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.

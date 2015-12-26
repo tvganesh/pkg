@@ -41,7 +41,7 @@ Tinniam V Ganesh
 \examples{
 # Get or use the <batsman>.csv obtained with getPlayerData()
 #tendulkarSp <-getPlayerDataSp(35320,".","tendulkarsp.csv","batting")
-#batsmanPerfHomeAway("../tendulkarsp.csv","Sachin Tendulkar")
+#batsmanPerfHomeAway("../cricketr/cricketr/data/tendulkarsp.csv","Sachin Tendulkar")
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.

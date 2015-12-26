@@ -47,7 +47,7 @@ Maintainer: Tinniam V Ganesh <tvganesh.85@gmail.com>
 # Get the list of the <batsman>.csv files obtained with getPlayerData() for batsmen to be compared
 #  <- getPlayerData(35320,file="tendulkar.csv",type="batting", homeOrAway=c(1,2),result=c(1,2,4))
 
-batsmen <- list("../tendulkar.csv","../dravid.csv", "..//ganguly.csv")
+batsmen <- list("../cricketr/data/tendulkar.csv","../cricketr/data/dravid.csv", "../cricketr/data/ganguly.csv")
 names <- list("Tendulkar","Dravid","Ganguly")
 relativeBatsmanSR(batsmen,names)
 }

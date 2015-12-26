@@ -46,7 +46,7 @@ Maintainer: Tinniam V Ganesh <tvganesh.85@gmail.com>
 \examples{
 # Get or use the <bowler>.csv obtained with getPlayerDataSp()
 #kumbleSp <-getPlayerDataSp(30176,".","kumblesp.csv","bowling")
-#bowlerContributionWonLost("../kumblesp.csv","Anil Kumble")
+#bowlerContributionWonLost("../cricketr/data/kumblesp.csv","Anil Kumble")
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.

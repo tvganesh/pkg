@@ -47,7 +47,7 @@ Maintainer: Tinniam V Ganesh <tvganesh.85@gmail.com>
 # Get or use the <bowler>.csv obtained with getPlayerData()
 # a <- getPlayerData(47492,file="steyn.csv",type="bowling", homeOrAway=c(1,2),result=c(1,2,4))
 
-frames <- list("../steyn.csv","../mitchell.csv", "../southee.csv","../malinga.csv")
+frames <- list("../cricketr/data/steyn.csv","../cricketr/data/mitchell.csv", "../cricketr/data/southee.csv","../cricketr/data/malinga.csv")
 names <- c("Steyn","Mitchell","Southee","Malinga")
 relativeBowlingERODTT(frames,names)
 }

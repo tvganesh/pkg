@@ -55,7 +55,7 @@ Maintainer: Tinniam V Ganesh <tvganesh.85@gmail.com>
 BF <- 30
 Mins <- 20
 
-batsmanRunsPredict("../tendulkar.csv","Sachin Tendulkar",newdataframe=data.frame(BF,Mins))
+batsmanRunsPredict("../cricketr/data/tendulkar.csv","Sachin Tendulkar",newdataframe=data.frame(BF,Mins))
 
 #or give a data frame
 #BF <- seq(20,200, length=15)

@@ -52,7 +52,7 @@ Maintainer: Tinniam V Ganesh <tvganesh.85@gmail.com>
 }
 \examples{
 
-checkBatsmanInForm("../tendulkar.csv","Sachin Tendulkar")
+checkBatsmanInForm("../cricketr/data/tendulkar.csv","Sachin Tendulkar")
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
