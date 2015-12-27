@@ -1,0 +1,17 @@
+{
+    "contents" : "^.*\\.Rproj$\n^\\.Rproj\\.user$\n",
+    "created" : 1451194297903.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2708567950",
+    "id" : "FA5A6C3E",
+    "lastKnownWriteTime" : 1451045887,
+    "path" : "C:/software/cricket-package/git/cricketr/cricketr/.Rbuildignore",
+    "project_path" : ".Rbuildignore",
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "type" : "text"
+}

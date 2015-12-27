@@ -1,0 +1,17 @@
+{
+    "contents" : "Package: cricketr\nType: Package\nType: Package\nTitle: The cricketr package can be used to analyze crickers based on ESPN Cricinfo Statsguru\nDescription: This package analyzes performances of cricketers based on stats \n             in ESPN Cricinfo Statsguru. The analyses can be done for Tests,ODIs and Twenty20\n             for batsmen and bowlers.\nVersion: 0.0.9\nDate: 2015-12-26\nAuthor: Tinniam V Ganesh\nMaintainer: Tinniam V Ganesh <tvganesh.85@gmail.com>\nLicense: MIT + file LICENSE\nDepends: \n   R (>= 2.15.0)\nImports:\n   dplyr,\n   plotrix,\n   ggplot2,\n   scatterplot3d,\n   forecast,\n   lubridate,\n   XML\nURL: https://github.com/tvganesh/cricketr\nBugReports: https://github.com/tvganesh/cricketr/issues",
+    "created" : 1451194298873.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2787844538",
+    "id" : "C6D2B7DF",
+    "lastKnownWriteTime" : 1451195020,
+    "path" : "C:/software/cricket-package/git/cricketr/cricketr/DESCRIPTION",
+    "project_path" : "DESCRIPTION",
+    "properties" : {
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "type" : "dcf"
+}

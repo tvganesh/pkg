@@ -1,0 +1,17 @@
+{
+    "contents" : "\\name{dravid}\n\\alias{dravid}\n\\docType{data}\n\\title{\nData set for Rahul Dravid\n}\n\\description{\nData set for Rahul Dravid\n}\n\\usage{data(\"dravid\")}\n\\format{\n  The format is:\n chr \"dravid\"\n}\n\\details{\nData set for Rahul Dravid\n}\n\\source{\nhttp://www.espncricinfo.com/ci/content/stats/index.html\n}\n\\references{\nhttp://www.espncricinfo.com/ci/content/stats/index.html\n}\n\\keyword{datasets}\n",
+    "created" : 1451193012997.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1586231157",
+    "id" : "C2AD22DD",
+    "lastKnownWriteTime" : 1451193022,
+    "path" : "C:/software/cricket-package/git/cricketr/cricketr/man/dravid.Rd",
+    "project_path" : "man/dravid.Rd",
+    "properties" : {
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "type" : "r_doc"
+}
